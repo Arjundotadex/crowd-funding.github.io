@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const CampaignDetails = () => {
+const CampignDetails = () => {
   return (
-    <div>CampaignDetails</div>
+    <div>CampignDetails</div>
   )
 }
+
+export default CampignDetails
