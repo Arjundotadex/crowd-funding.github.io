@@ -22,7 +22,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='sm:flex hidden flex-row justify-end gap-4'>
-        <CustomButton btntype="button" title={address ? 'Create a Campaign':'Connect' }/>
+        <CustomButton btntype="button" title={address ? 'Create a Campaign':'Connect' }
+        styles={address ? 'bg-[#1dc071]': 'bg-[#8c6dfd]'}/>
       </div> </div>
   )
 }
