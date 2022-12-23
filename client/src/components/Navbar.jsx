@@ -34,7 +34,7 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
-      {/*Small screen navigation*/}
+      {/*Small Screen Navigation*/}
        </div>
   )
 }
