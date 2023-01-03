@@ -52,8 +52,8 @@ const Navbar = () => {
                   setToggleDrawer(false);
                   navigate(link.link);
                 }}>
-                <img src={link.imgUrl} alt={link.name} />
-                <p className={`ml-[20px] font-epilogue font-semibold text-[14px] ${isActive===link.name ? 'text-[#1dc071]'}`}>{link.name}</p>
+                <img src={link.imgUrl} alt={link.name} className={`w-[24px] h-[24px]`}/>
+                <p className={`ml-[20px] font-epilogue font-semibold text-[14px] ${isActive===link.name ? 'text-[#1dc071]' : 'text-[$808191]'}`}>{link.name}</p>
 
               </li>
             ))}
